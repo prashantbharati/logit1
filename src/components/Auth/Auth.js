@@ -45,7 +45,8 @@ export const Auth = () => {
     e.preventDefault();
 
     if (isSignup) {
-      //   dispatch(signup(form, navigate));
+      // const { data } = await api.signIn(formData);
+      // localStorage.setItem("profile", JSON.stringify({ ...action?.data }));
     } else {
       //   dispatch(signin(form, navigate));
     }
