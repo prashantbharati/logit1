@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
+// import { useDispatch } from "react-redux";
 // import { useHistory } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 // import { useHistory } from "react-router-dom";
 // import { signin, signup } from "../../actions/auth";
 // import { AUTH } from "../../constants/actionTypes";
@@ -16,7 +16,7 @@ import {
 } from "@material-ui/core";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 // import { GoogleLogin } from "react-google-login";
-import Icon from "./icon";
+// import Icon from "./icon";
 
 import useStyles from "./styles";
 import Input from "./Input";
@@ -34,8 +34,8 @@ export const Auth = () => {
   const [form, setForm] = useState(initialState);
   const [showPassword, setShowPassword] = useState(false);
   const [isSignup, setIsSignup] = useState(false);
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
+  //   const dispatch = useDispatch();
+  //   const navigate = useNavigate();
   // const history = useHistory();
 
   const handleChange = (e) =>
